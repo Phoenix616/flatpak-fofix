@@ -1,14 +1,14 @@
-app-id: net.sourceforge.fretsonfire
+app-id: net.github.fofix
 runtime: org.freedesktop.Platform
 runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
-command: fretsonfire
+command: fofix
 finish-args:
   - --socket=x11
   - --share=ipc
   - --socket=pulseaudio
   - --device=all
-  - --persist=.fretsonfire
+  - --persist=.fofix
 cleanup:
   - '*.a'
   - '*.la'
