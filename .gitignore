@@ -1,3 +1,4 @@
 .flatpak-builder
-build
-fofix-3.122
+builddir
+.idea
+repo
