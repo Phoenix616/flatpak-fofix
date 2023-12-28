@@ -10,7 +10,7 @@
     <p>
       This is Frets on Fire X, a highly customizable rhythm game supporting many modes of guitar, bass, drum, and vocal gameplay for up to four players. It is the continuation of a long succession of modifications to the original Frets on Fire by Unreal Voodoo.
     </p>
-    <p>Features:</p>
+    <p>Features of the original Frets on Fire:</p>
     <ul>
       <li>Unique inverted keyboard gameplay style</li>
       <li>Support for guitar controllers and generic joysticks</li>
@@ -20,6 +20,16 @@
       <li>Supports importing Guitar Hero™ I and Guitar Hero™ II songs</li>
       <li>Multiplatform; runs on Windows™, Linux®, Mac OS X™ and FreeBSD®</li>
       <li>Open source, full Python source code available</li>
+    </ul>
+    <p>Features added by FoFiX:</p>
+    <ul>
+      <li>Customizable graphics (themes, necks)</li>
+      <li>Multiplayer support</li>
+      <li>Starpower / Overdrive (Rock Band term) (x2 multiplier)</li>
+      <li>Bass groove (x4, x5, x6 multipliers with a bass)</li>
+      <li>Killswitch (whammy)</li>
+      <li>Customizable Hammer-on / Pull-off (called ho/po)</li>
+      <li>Support for seperate song, guitar, bass and drum audio tracks</li>
     </ul>
   </description>
   <screenshots>
