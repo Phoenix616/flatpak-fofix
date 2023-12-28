@@ -158,15 +158,9 @@ modules:
 
   - name: fofix
     sources:
-      - type: archive
-        url: https://github.com/fofix/fofix/archive/refs/tags/v3.123.tar.gz
-        sha256: 933ab021350f6b2f37bd87e458b840d91d262a5b9f55c25fc6f0772b489deb1c
-        # IMPORTANT: Manual update of metainfo.xml required
-        x-checker-data:
-          type: json
-          url: https://api.github.com/repos/fofix/fofix/releases/latest
-          version-query: ".tag_name"
-          url-template: https://github.com/fofix/fofix/archive/refs/tags/$version.tar.gz
+      - type: git
+        url: https://github.com/fofix/fofix.git
+        commit: 1d9f45176e95b9cb3f55698a611567561f9049fe
       - type: file
         path: org.fofix.FoFiX.metainfo.xml
       - type: file

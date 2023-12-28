@@ -58,7 +58,7 @@
   <launchable type="desktop-id">org.fofix.FoFiX.desktop</launchable>
   <url type="homepage">https://fofix.github.io/</url>
   <releases>
-    <release version="3.3.123" date="2021-10-16" />
+    <release version="4.0-master-1d9f451" date="2023-12-11" />
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="language-profanity">mild</content_attribute>
