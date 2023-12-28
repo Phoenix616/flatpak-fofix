@@ -4,5 +4,5 @@ Type=Application
 Name=FoFiX
 Comment=Frets on Fire X: a fork of Frets on Fire with many added features and capabilities
 Exec=fofix
-Icon=net.github.fofix
+Icon=org.fofix.FoFiX
 Categories=Game;

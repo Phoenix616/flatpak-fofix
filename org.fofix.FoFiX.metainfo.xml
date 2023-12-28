@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TODO: update description, screenshots, etc -->
 <component type="desktop-application">
-  <id>net.github.fofix</id>
+  <id>org.fofix.FoFiX</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <name>FoFiX</name>
@@ -55,7 +55,7 @@
       <image type="source" width="640" height="480">http://fretsonfire.sourceforge.net/screenshots/fretsonfire7.png</image>
     </screenshot>
   </screenshots>
-  <launchable type="desktop-id">net.github.fofix.desktop</launchable>
+  <launchable type="desktop-id">org.fofix.FoFiX.desktop</launchable>
   <url type="homepage">https://fofix.github.io/</url>
   <releases>
     <release version="3.122" date="2019-11-28" />

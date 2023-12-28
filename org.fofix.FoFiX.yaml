@@ -1,4 +1,4 @@
-app-id: net.github.fofix
+app-id: org.fofix.FoFiX
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
@@ -170,9 +170,9 @@ modules:
       - type: patch
         path: fix_audio_indentation.patch
       - type: file
-        path: net.github.fofix.metainfo.xml
+        path: org.fofix.FoFiX.metainfo.xml
       - type: file
-        path: net.github.fofix.desktop
+        path: org.fofix.FoFiX.desktop
       - type: file
         path: MANIFEST
       - type: script
@@ -192,7 +192,7 @@ modules:
       - |
         for res in 16 32 48 64 128; do
           ffmpeg -y -i data/fofix_icon.png -update 1 -vf "scale=${res}:ow:force_original_aspect_ratio=decrease,pad='max(iw,ih)':ow:(ow-iw)/2:(oh-ih)/2:black@0" icon.png || exit 1
-          install -Dm0644 icon.png "/app/share/icons/hicolor/${res}x${res}/apps/net.github.fofix.png" || exit 1
+          install -Dm0644 icon.png "/app/share/icons/hicolor/${res}x${res}/apps/org.fofix.FoFiX.png" || exit 1
         done
-      - install -Dm0644 -t /app/share/metainfo net.github.fofix.metainfo.xml
-      - install -Dm0644 -t /app/share/applications net.github.fofix.desktop
+      - install -Dm0644 -t /app/share/metainfo org.fofix.FoFiX.metainfo.xml
+      - install -Dm0644 -t /app/share/applications org.fofix.FoFiX.desktop
