@@ -159,16 +159,14 @@ modules:
   - name: fofix
     sources:
       - type: archive
-        url: https://github.com/fofix/fofix/archive/refs/tags/v3.122.tar.gz
-        sha256: 80e81993e6c569b3dd2f61176c23b4d1c2d88ac540829128a89a73a0b51c4be2
+        url: https://github.com/fofix/fofix/archive/refs/tags/v3.123.tar.gz
+        sha256: 933ab021350f6b2f37bd87e458b840d91d262a5b9f55c25fc6f0772b489deb1c
         # IMPORTANT: Manual update of metainfo.xml required
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fofix/fofix/releases/latest
           version-query: ".tag_name"
           url-template: https://github.com/fofix/fofix/archive/refs/tags/$version.tar.gz
-      - type: patch
-        path: fix_audio_indentation.patch
       - type: file
         path: org.fofix.FoFiX.metainfo.xml
       - type: file
